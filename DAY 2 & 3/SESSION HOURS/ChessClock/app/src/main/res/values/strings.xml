@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // App Title
+    <string name="app_name">ChessClock</string>
+
+    // Activity Main
+    <string name="yesStr">Yes</string>
+    <string name="noStr">No</string>
+
+    // Activity Settings
+    <string name="iconStr">Icon</string>
+    <string name="settingsStr">Settings</string>
+    <string name="gameStr">Game</string>
+    <string name="themeStr">Theme</string>
+
+    // Fragment Themes
+    <string name="switchDarkStr">Enable Dark Mode</string>
+    <string name="switchLightStr">Disable Dark Mode</string>
+    <string name="selfStartStr">Start own clock when paused</string>
+
+    <string name="selectSoundStr">Select a sound…</string>
+    <string name="clearTroatStr">Clear throat</string>
+    <string name="mechClickStr">Mechanical click</string>
+
+    // Fragment Settings
+    <string name="topClockStr">TOP CLOCK</string>
+    <string name="timeStr">Time</string>
+    <string name="incrementStr">Increment</string>
+    <string name="bottomClockStr">BOTTOM CLOCK</string>
+    <string name="startStr">Start</string>
+
+    // Time Picker
+    <string name="setTime">Set time</string>
+    <string name="cancel">Cancel</string>
+    <string name="timeNotation" translatable="false">%1$s:%2$s</string>
+
+</resources>
