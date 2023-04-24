@@ -1,0 +1,13 @@
+Key words:-
+
+Kotlin -> Parcelilize, suspend fn, data class, coroutine-> launch, 
+
+Android -> Fragment, ViewModel,Parcelable,ViewModelScope, 
+
+Testing -> Junit, Mockito, mockk(kotlin), Espresso
+
+Github repo, add me collaborator
+
+Tasks:-
+1. Add the life cylces for activity, fragment in to code
+2. Convert the CoffeeShop to Book Lending App
