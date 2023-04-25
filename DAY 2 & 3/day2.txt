@@ -1,0 +1,16 @@
+viewBinding, dataBinding -
+MVVM, MVP - design patterns
+Retrofit - consuming API, webservice 
+
+Espresso - concepts,setup
+Basics - TextView, EditText, Navigation, visibility of controls, 
+
+TDD -> Test Driven Development
+
+
+Day - 1 discussed 
+Android core components,
+Activities, Fragments, life cycle methods, room database, navigation, firebase cloud db, layout, 
+
+Day 2 - tasks
+Add the basic espresso test cases of Day 1 projects with visibility test cases, typeText for edit text boxes, button click events
