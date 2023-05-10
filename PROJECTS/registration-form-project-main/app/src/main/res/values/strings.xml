@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Registration Form</string>
+    <string name="registration_form_title">Registration Form</string>
+    <string name="enter_phone_number_hint">Enter phone number (+044)</string>
+    <string name="enter_email_hint">Enter email</string>
+    <string name="enter_name_hint">Enter name</string>
+    <string name="submit_btn_text">Submit</string>
+    <string name="profile_fragment_title">Your Profile</string>
+    <string name="name">Name:</string>
+    <string name="placeholder">placeholder</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="sex">Sex:</string>
+    <string name="invalid_name_message">Please enter your name</string>
+    <string name="invalid_email_message">Please enter your email</string>
+    <string name="invalid_phone_message">Please input a valid phone number</string>
+    <string name="name_key">nameKey</string>
+    <string name="email_key">emailKey</string>
+    <string name="phone_key">phoneKey</string>
+    <string name="gender_key">genderKey</string>
+    <string name="bundle_key">bundleKey</string>
+    <string name="Nil">Nil</string>
+    <string name="saved_instance_name_key">name</string>
+    <string name="saved_instance_email_key">email</string>
+    <string name="saved_instance_phone_key">phone</string>
+    <string name="saved_instance_gender_key">gender</string>
+
+    <string-array name="planets_array">
+    <item>Male</item>
+    <item>Female</item>
+</string-array>
+
+</resources>
