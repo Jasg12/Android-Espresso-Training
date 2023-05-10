@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_photos"
+        android:enabled="true"
+        android:icon="@drawable/photos"
+        android:title="Photos"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_albums"
+        android:enabled="true"
+        android:icon="@drawable/albums"
+        android:title="Albums"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_sharing"
+        android:enabled="true"
+        android:icon="@drawable/social"
+        android:title="Sharing"
+        app:showAsAction="always" />
+</menu>

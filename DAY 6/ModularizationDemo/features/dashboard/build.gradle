@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+dependencies {
+    implementation project(':libraries:ui-components')
+    implementation project(':libraries:actions')
+
+    implementation Deps.androidx_material
+    implementation Deps.androidx_constraintlayout
+    implementation Deps.androidx_recyclerview
+    implementation Deps.androidx_navigation_fragment
+    implementation Deps.androidx_navigation_ui
+
+    testImplementation Deps.testlib_junit
+
+    androidTestImplementation Deps.testandroidx_runner
+    androidTestImplementation Deps.testandroidx_rules
+    androidTestImplementation Deps.testandroidx_espressocore
+}

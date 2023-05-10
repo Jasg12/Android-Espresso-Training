@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: 'https://raw.githubusercontent.com/JakeWharton/SdkSearch/master/gradle/projectDependencyGraph.gradle'
+
+android {
+    defaultConfig {
+        applicationId "com.jeroenmols.modularization.example"
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':features:dashboard')
+    implementation project(':features:sharing')
+    implementation project(':features:login')
+    implementation project(':libraries:ui-components')
+    implementation project(':libraries:actions')
+
+    testImplementation Deps.testlib_junit
+
+    implementation Deps.androidx_navigation_fragment
+    implementation Deps.androidx_navigation_ui
+
+    testImplementation Deps.testlib_junit
+
+    androidTestImplementation Deps.testandroidx_runner
+    androidTestImplementation Deps.testandroidx_rules
+    androidTestImplementation Deps.testandroidx_espressocore
+}
